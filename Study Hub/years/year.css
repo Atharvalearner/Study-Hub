@@ -1,0 +1,89 @@
+#logo{      /* LOGO CSS   */
+	position: absolute;
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+	width: 3rem;
+	display: inline-block;
+}
+
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#pagetop {
+  background-color: #020e13;
+}
+
+#topbar {
+  height: 6.5rem;
+  width: 100%;
+  margin: 0px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: #e4ebfd !important;
+  color: black;
+}
+
+.container,
+.home {
+  animation: transitionIn 0.75s;
+}
+
+.nav_section,
+.navbar-brand {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.nav_section .nav_section span {
+  color: var(--pink-color);
+}
+
+.nav_section .navbar-nav li {
+  margin: 0px 8px;
+}
+
+.nav_section .navbar-nav li a {
+  border: 2px solid #E3FDFD;
+  border-radius: 8px;
+  background-color: #aca2f3;
+  color: black !important;
+  font-size: 15px;
+}
+
+.nav_section .navbar-nav .nav-link::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  background-color: rgb(234, 214, 214);
+  position: absolute;
+  bottom: 7px;
+  transition: 0.5s;
+}
+
+.nav_section .navbar-nav .nav-link:hover::before {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: var(--pink-color);
+  position: absolute;
+  bottom: 7px;
+}
+
+.nav-item:hover {
+  color: #d03c13;
+}
+
+.navbar-brand{     /*  Study hub name css  */
+  color: black;
+  margin-top: 0.5rem;
+  margin-left: 2.8rem;
+}
